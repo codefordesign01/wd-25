@@ -1,0 +1,99 @@
+/* body styling   */
+body{
+ margin: 0;
+ font-family: "Roboto", sans-serif;
+}
+/* card section css */
+.card_section{
+ background-color: #f8f7f7;
+ padding: 50px 100px;
+}
+.card_section h2{
+ text-align: center;
+}
+.card-main{
+ display: flex;
+ justify-content: space-between;
+ margin-top: 50px;
+}
+.card{
+ width: 30%;
+ padding: 20px;
+ background-color: white; ;
+ border:1px solid lightskyblue;
+ box-sizing: border-box;
+ border-radius: 10px;
+ position: relative;
+ transition: 1s;
+}
+.card:hover{
+ background-color: rgb(240, 243, 244);
+}
+.card h3{
+ color: rgb(19, 59, 84);
+ font-size: 26px;
+}
+.flex_box{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+.flex_box i{
+ font-size: 60px;
+ color: rgb(19, 59, 84);
+}
+.flex_box span{
+ font-size: 45px;
+ font-weight: 900;
+ color: lightskyblue;
+}
+.badge{
+ background-color: red;
+ color: white;
+ padding: 10px 20px;
+ border-radius: 32px;
+ position: absolute;
+ top:20px;
+ left: 10px;
+
+}
+.banner{
+ border:2px solid;
+ height: 500px;;
+ background-image: url(bg.jpg);
+background-position: center;
+ background-size: cover;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ position: relative;
+ z-index: 1;
+}
+.banner .linear{
+ width: 100%;
+ height: 100%;
+ background-color:black;
+ opacity: 0.5;
+ position: absolute;
+ top:0;
+ left: 0;
+ z-index: -1;
+}
+.banner h2{
+  color: red;
+}
+.banner h1{
+ color: white;
+ font-size: 50px;
+}
+.box{
+ width: 300px;
+ height: 300px;
+ background-color: blue;
+ transition: 1s;
+}
+.box:hover{
+ width: 500px;
+ 
+}
